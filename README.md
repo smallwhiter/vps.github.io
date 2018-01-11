@@ -61,7 +61,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps
 
 ### transmission.sh (有修改，脚本来源：[ubuntu transmission一键安装](http://xiaofd.win/ubuntu-transmission-onekey-with-transmission-cli-and-rss.html))
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/transmission.sh && chmod +x transmission.sh && bash transmission.sh 
+wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/transmission.sh && chmod +x transmission.sh && bash transmission.sh -u 用户名 -p 密码 --port 9091
+#默认用户名和密码均为Baymin，默认端口为9091
 
 
 
