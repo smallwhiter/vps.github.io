@@ -4,17 +4,23 @@
 wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/superbench.sh && chmod +x superbench.sh && bash superbench.sh
 ```
 
+
+
 ### SuperSpeed.sh(一键测试服务器到国内的速度 ，[脚本来源:](https://www.oldking.net/305.html))
 
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/SuperSpeed.sh && chmod +x SuperSpeed.sh && bash SuperSpeed.sh
 ```
 
+
+
 ### BBR.sh(拥塞算法,[脚本来源：](https://moeclub.org/2017/06/06/249/))
 
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/BBR.sh && chmod +x BBR.sh && bash BBR.sh -f v4.11.9
 ```
+
+
 
 ### BBR_POWERED.sh(拥塞算法,[脚本来源：](https://moeclub.org/2017/06/24/278/))
 
@@ -50,4 +56,13 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps
 #Debian 9 x64位
 wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/DebianNET.sh && chmod +x DebianNET.sh && bash DebianNET.sh -d stretch -v amd64
 ```
+
+
+
+### transmission.sh (有修改，脚本来源：[ubuntu transmission一键安装](http://xiaofd.win/ubuntu-transmission-onekey-with-transmission-cli-and-rss.html))
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/transmission.sh && chmod +x transmission.sh && bash transmission.sh 
+
+
+
 
