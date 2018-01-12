@@ -429,3 +429,4 @@ if [[ ${telecom} == 5 ]]; then
     echo $(date +%Y-%m-%d" "%H:%M:%S)
 	echo "全面测试完成！"
 fi
+
