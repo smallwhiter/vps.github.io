@@ -9,7 +9,9 @@ wget -qO- –no-check-certificate https://raw.githubusercontent.com/smallwhiter/
 ### SuperSpeed.sh(一键测试服务器到国内的速度 ，[脚本来源:](https://www.oldking.net/305.html))
 
 ```
-wget -qO- –no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/SuperSpeed.sh | bash
+wget –no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/SuperSpeed.sh 
+chmod +x SuperSpeed.sh
+bash SuperSpeed.sh
 ```
 
 
