@@ -66,8 +66,10 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps
 wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/transmission.sh && chmod +x transmission.sh && bash transmission.sh -u 用户名 -p 密码 --port 9091
 #默认用户名和密码均为Baymin，默认端口为9091
 ```
+
+### h5ai_ssl.sh([H5AI 基于 Nginx + PHP7.0.x 的 一键安装脚本](https://github.com/wulabing/h5ai_onekey_install-lnp-))
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/transmission.sh && chmod +x h5ai_ssl.sh && bash h5ai.sh |tee h5ai.log
+wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/h5ai_ssl.sh && chmod +x h5ai_ssl.sh && bash h5ai_ssl.sh |tee h5ai.log
 
 纯净状态的发行版系统安装  
 Nginx：/etc/nginx  
