@@ -97,3 +97,15 @@ chmod +x kms.sh
 ./kms.sh start
 ```
 注意放行服务器1688端口！
+
+## FunctionClub-bbr.sh ([雨落无声版bbr](https://www.zhujiboke.com/2017/07/589.html))
+
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/FunctionClub-bbr.sh && bash bbr.sh install
+#据提示重启系统,重启完成后，运行
+bash bbr.sh start
+
+#查看魔改 BBR 状态，运行下面的命令，如果看到有 tsunami 就表示开启成功！
+sysctl net.ipv4.tcp_available_congestion_control
+
+```
