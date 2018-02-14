@@ -83,3 +83,17 @@ h5ai目录：/etc/home/your_domain
 
 ```
 
+## one-key-kms-debian.sh[一键搭建KMS服务器](http://www.hostloc.com/thread-428928-1-4.html)
+
+```
+#搭建
+wget https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/one-key-kms-debian.sh
+chmod +x one-key-kms-debian.sh
+./one-key-kms-debian.sh
+
+#启用kms
+wget https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/kms.sh
+chmod +x kms.sh
+./kms.sh start
+```
+注意放行服务器1688端口！
