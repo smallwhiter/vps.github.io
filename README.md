@@ -35,13 +35,19 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps
 
 ### DebianNET.sh （DD Windows，[脚本来源：](https://moeclub.org/2017/11/19/483/)）
 需求
-- Debian/Ubuntu:  
+- Debian/Ubuntu: 
+```
 apt-get install -y gawk sed grep
- 
+ ```
 - RedHat/CentOS:  
+```
 yum install -y gawk sed grep
-
--
+```
+- 添加-apt/--mirror参数,用于指定源(需完整的镜像源地址).
+```
+--mirror 'http://ftp.riken.jp/Linux/debian/debian/'
+--mirror 'http://mirrors.ustc.edu.cn/debian/'
+```
 ```
 #Windows
 wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/DebianNET.sh && chmod +x DebianNET.sh && bash DebianNET.sh -dd '[Windows dd包直连地址]'
