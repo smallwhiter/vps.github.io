@@ -115,3 +115,10 @@ bash bbr.sh start
 sysctl net.ipv4.tcp_available_congestion_control
 
 ```
+
+### ZBench [又一个Linux VPS测评脚本](https://github.com/FunctionClub/ZBench)
+
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/smallwhiter/vps.github.io/master/SuperSpeed.sh && bash ZBench-CN.sh
+```
+
